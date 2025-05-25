@@ -1,0 +1,82 @@
+.wallet-container {
+  display: flex;
+  align-items: center;
+}
+
+.wallet-loading {
+  padding: 0.5rem 1.5rem;
+  background-color: rgba(26, 26, 26, 0.8);
+  backdrop-filter: blur(4px);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 239, 139, 0.2);
+  color: #00ef8b;
+  animation: pulse 2s infinite;
+}
+
+.wallet-connected {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.wallet-address {
+  padding: 0.5rem 1rem;
+  background-color: rgba(26, 26, 26, 0.8);
+  backdrop-filter: blur(4px);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 239, 139, 0.2);
+  color: #00ef8b;
+}
+
+.wallet-address span {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.wallet-connect-btn {
+  padding: 0.5rem 1.5rem;
+  background-color: #00ef8b;
+  color: #1a1a1a;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 239, 139, 0.5);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 239, 139, 0.1);
+}
+
+.wallet-connect-btn:hover {
+  background-color: rgba(0, 239, 139, 0.9);
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 239, 139, 0.2);
+}
+
+.wallet-disconnect-btn {
+  padding: 0.5rem 1.5rem;
+  background-color: rgba(239, 68, 68, 0.8);
+  color: white;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(239, 68, 68, 0.5);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(239, 68, 68, 0.1);
+}
+
+.wallet-disconnect-btn:hover {
+  background-color: rgb(220, 38, 38);
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2);
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+} 

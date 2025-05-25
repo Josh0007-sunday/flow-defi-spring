@@ -1,0 +1,53 @@
+.admin-container {
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #121212;
+  color: white;
+}
+
+.admin-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(0, 239, 139, 0.1);
+}
+
+.admin-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  color: #00ef8b;
+}
+
+.admin-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Reuse card styles from App.css */
+.card {
+  background-color: #1a1a1a;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  border: 1px solid rgba(0, 239, 139, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #00ef8b;
+  margin-bottom: 1rem;
+}
+
+.warning-text {
+  color: #ff6b6b;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
